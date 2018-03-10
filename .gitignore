@@ -1,0 +1,19 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+#Build
+bin/
+*.jar
+# Intellij
+.idea/
+*.iws
+
+#
+
+# Maven
+log/
+target/
+
+**/bin

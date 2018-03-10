@@ -1,0 +1,28 @@
+2018-02-20 16:59:26,029 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (i, 2.0) at position 2.
+2018-02-20 16:59:26,036 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (n, 3.0) at position 3.
+2018-02-20 16:59:26,036 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (d, 10.0) at position 1.
+2018-02-20 16:59:26,055 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (t, 3.5) at position 4.
+2018-02-20 16:59:26,055 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (N, 2.0) at position 0.
+2018-02-20 16:59:26,055 ERROR org.apache.hadoop.mrunit.TestDriver: Received unexpected output (t, 3.0) at position 0.
+2018-02-20 17:00:50,182 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (i, 2.0) at position 2.
+2018-02-20 17:00:50,186 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (n, 3.0) at position 3.
+2018-02-20 17:00:50,186 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (d, 10.0) at position 1.
+2018-02-20 17:00:50,188 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (t, 3.5) at position 4.
+2018-02-20 17:00:50,192 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (N, 2.0) at position 0.
+2018-02-20 17:00:50,192 ERROR org.apache.hadoop.mrunit.TestDriver: Received unexpected output (t, 3.0) at position 0.
+2018-02-20 17:02:23,055 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (i, 2.0) at position 2.
+2018-02-20 17:02:23,056 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (n, 3.0) at position 3.
+2018-02-20 17:02:23,059 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (d, 10.0) at position 1.
+2018-02-20 17:02:23,064 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (t, 3.5) at position 4.
+2018-02-20 17:02:23,065 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (N, 2.0) at position 0.
+2018-02-20 17:02:23,065 ERROR org.apache.hadoop.mrunit.TestDriver: Received unexpected output (t, 3.0) at position 0.
+2018-02-20 17:04:42,027 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (i, 2.0) at position 2.
+2018-02-20 17:04:42,028 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (n, 3.0) at position 3.
+2018-02-20 17:04:42,028 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (d, 10.0) at position 1.
+2018-02-20 17:04:42,033 ERROR org.apache.hadoop.mrunit.TestDriver: Matched expected output (t, 3.5) but at incorrect position 0 (expected position 4)
+2018-02-20 17:04:42,033 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (N, 2.0) at position 0.
+2018-02-20 17:07:52,611 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (i, 2.0) at position 2.
+2018-02-20 17:07:52,617 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (n, 3.0) at position 3.
+2018-02-20 17:07:52,617 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (d, 10.0) at position 1.
+2018-02-20 17:07:52,620 ERROR org.apache.hadoop.mrunit.TestDriver: Matched expected output (t, 3.5) but at incorrect position 0 (expected position 4)
+2018-02-20 17:07:52,620 ERROR org.apache.hadoop.mrunit.TestDriver: Missing expected output (N, 2.0) at position 0.
