@@ -6,6 +6,7 @@
 #Build
 bin/
 *.jar
+*.class
 # Intellij
 .idea/
 *.iws
