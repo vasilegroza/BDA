@@ -49,7 +49,7 @@ public class AvgWordLength extends Configured implements Tool {
          * Specify an easily-decipherable name for the job.
          * This job name will appear in reports and logs.
          */
-        job.setJobName("Average Word Length");
+        job.setJobName("Average Word Length - toolruner ");
 
         /*
          * TODO implement

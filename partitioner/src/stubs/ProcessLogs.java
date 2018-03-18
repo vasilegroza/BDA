@@ -18,7 +18,7 @@ public class ProcessLogs {
 
         Job job = new Job();
         job.setJarByClass(ProcessLogs.class);
-        job.setJobName("Process Logs");
+        job.setJobName("Process Logs - partitioner month mapper");
 
         FileInputFormat.setInputPaths(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));

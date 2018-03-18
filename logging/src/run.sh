@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # remove old outputs
 hadoop fs -rm -R wordlengths
 hadoop fs -rm -R wordlengths_1

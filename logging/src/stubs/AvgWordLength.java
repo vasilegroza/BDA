@@ -28,7 +28,7 @@ public class AvgWordLength extends Configured implements Tool {
          * Validate that two arguments were passed from the command line.
          */
         if (args.length != 2) {
-            System.out.printf("Usage: AvgWordLength <input dir> <output dir>\n");
+            System.out.printf("Usage: AvgWordLength - logging <input dir> <output dir>\n");
             System.exit(-1);
         }
 
@@ -49,7 +49,7 @@ public class AvgWordLength extends Configured implements Tool {
          * Specify an easily-decipherable name for the job.
          * This job name will appear in reports and logs.
          */
-        job.setJobName("Average Word Length");
+        job.setJobName("Average Word Length - logging ");
 
         /*
          * TODO implement
