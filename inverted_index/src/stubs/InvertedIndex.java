@@ -1,8 +1,13 @@
 package stubs;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
@@ -22,6 +27,15 @@ public class InvertedIndex extends Configured implements Tool {
     /*
      * TODO implement
      */
+    FileInputFormat.setInputPaths(job, new Path(args[0]));
+    FileOutputFormat.setOutputPath(job, new Path(args[1]));
+
+    job.setInputFormatClass(KeyValueTextInputFormat.class);
+    job.setMapperClass(IndexMapper.class);
+    job.setReducerClass(IndexReducer.class);
+
+    job.setOutputKeyClass(Text.class);
+    job.setOutputValueClass(Text.class);
 
     boolean success = job.waitForCompletion(true);
     return success ? 0 : 1;
